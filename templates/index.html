@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>hello youtube downloader</title>
+    </head>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/ytdl.js"></script>
+<body>
+    Hello this is youtube-dl
+    <br>
+    <br>
+    <form id="dlform" name="dlform" action="/download" method="post">
+        Youtube link:<br>
+        <input id="url" type="text" name="url">
+        <button id="submit" type="submit" form="dlform" value="Download">Submit</button>
+        <span id="info" hidden>Ok, downloading...</span>
+    </form>
+</body>
+</html>
